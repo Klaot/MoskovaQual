@@ -1,0 +1,81 @@
+.contactInfo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 25px;
+    background: linear-gradient(90deg, #443682 14.58%, #28418A 39.75%, #00669C 68.41%);
+    color: #fff;
+}
+.logo {
+    display: flex;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.logo p {
+  margin: 0;
+}
+
+.logo h4 {
+    margin-bottom: 0px;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.social img {
+    margin-right: 7px;
+}
+
+.timetable {
+    display: flex;
+}
+
+.timetable p {
+    margin-block: 0px;
+}
+
+.timetableClock {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.timetableClock img {
+    width: 30px;
+    height: 29.46px;
+    margin-right: 5px;
+}
+
+.callInfo {
+    display: flex;
+    align-items: center;
+}
+
+.telephone {
+    display: flex;
+    align-items: center;
+}
+
+.telephone img {
+    margin-right: 7px;
+}
+
+.telephone a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.callBtn {
+    padding: 13px 21px 13px 21px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin-left: 15px;
+    cursor: pointer;
+}
