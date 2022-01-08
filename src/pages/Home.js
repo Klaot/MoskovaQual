@@ -3,6 +3,7 @@ import reactDom from "react-dom";
 import  render  from "react-dom";
 import  Header  from "../components/Header";
 import QualityBlock from "../components/QualityBlock";
+import ThirdBlock from "../components/Home/Third-block";
 import './Home.css';
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
             </div>
         </div>
         <QualityBlock />
+        <ThirdBlock />
         
         </div>
     );
