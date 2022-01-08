@@ -1,0 +1,37 @@
+.quality {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-block: 20px 100px;
+}
+
+.qualityItem {
+    width: 262px;
+    height: 280px;
+    background: linear-gradient(180deg, #A6DBF5 0%, #451874 97.92%);
+    border-radius: 28px;
+}
+
+.guarantee {
+    width: 97px;
+    height: 97px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 100%; 
+    margin-top: 29%;
+    margin-bottom: 10px; 
+}
+
+.guaranteeAll {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 18px;
+}
