@@ -16,5 +16,5 @@ export default function ThirdBlock() {
                 <button className="third-block-btn">Узнать стоимость</button>
             </div>
         </section>
-    )
+    );
 }

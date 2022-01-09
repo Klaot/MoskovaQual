@@ -1,0 +1,91 @@
+.diagnostics {
+    max-width: 1170px;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.diagnostics-text h2 {
+    margin-top: 115px;
+    font-size: 28px;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+
+.diagnostics-text p {
+    display: inline-block;
+    margin-bottom: 46px;
+    font-size: 22px;
+    line-height: 26px;
+    box-shadow: inset 0 -2px 0 0 rgb(0, 0, 0);
+}
+
+.diagnostics-img-all {
+    width: 450px;
+    display: flex;
+
+    flex-wrap: wrap;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.diagnostics-img-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.diagnostics-img-block-text {
+    font-size: 20px;
+    line-height: 119.69%;
+    text-align: center;
+}
+
+
+.diagnostics-img {
+    width: 364px;
+    height: 364px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border: 12px solid rgba(76, 26, 139, 0.42);
+    border-radius: 100%;
+}
+
+.diagnostics-img-prise {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    width: 184px;
+    height: 184px;
+    background: #5F24A8;
+    border-radius: 100%;
+    margin: -155px 0px 0px 240px;
+    position: relative;
+}
+
+.diagnostics-img-prise p {
+    margin: 0;
+    font-size: 30px;
+}
+
+.diagnostics-img-prise h2 {
+    margin: 0;
+    font-size: 50px;
+    line-height: 64px
+}
+
+.diagnostics-text-footer {
+    margin-top: 91px;
+}
+
+.diagnostics-text-footer p {
+    display: inline-block;
+    margin-bottom: 46px;
+    font-size: 22px;
+    line-height: 26px;
+    box-shadow: inset 0 -2px 0 0 rgb(0, 0, 0);
+}

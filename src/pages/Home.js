@@ -4,6 +4,7 @@ import  render  from "react-dom";
 import  Header  from "../components/Header";
 import QualityBlock from "../components/QualityBlock";
 import ThirdBlock from "../components/Home/Third-block";
+import Diagnostics from "../components/Home/Diagnostics";
 import './Home.css';
 
 function Home() {
@@ -23,6 +24,7 @@ function Home() {
         </div>
         <QualityBlock />
         <ThirdBlock />
+        <Diagnostics />
         
         </div>
     );
