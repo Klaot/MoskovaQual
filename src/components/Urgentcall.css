@@ -1,0 +1,150 @@
+.urgentcall {
+    margin-top: 70px;
+    padding-bottom: 180px;
+    padding-top: 123px;
+    text-align: center;
+    background: url('../img/urgentcall/wallpaper.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff; 
+    z-index: 1;
+    position: relative;
+}
+
+.urgentcall p {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+
+.urgentcallQuestion {
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 53px;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding-block: 8px;
+    color: black;
+}
+
+.urgentcallQuestion h3 {
+    margin: 0;
+}
+
+.urgentcallQuestion span {
+    color:#FF5C00;
+    
+}
+
+.urgentcall-quality {
+    display: flex;
+    flex-direction: column;
+}
+
+.urgentcall-quality-item {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.urgentcall-quality-item h3 {
+    margin-block: 18px;
+    
+}
+
+.urgentcall-quality-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 17px;
+}
+
+.urgentcall-tel-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.urgentcall-tel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 28px 17px 28px;
+    background-color: #fff;
+    color: black;
+    font-size: 40px; 
+    border-radius: 30px;
+}
+
+.urgentcall-tel h1 {
+    color: black;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 0; 
+}
+
+.urgentcall-form  {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient( #FF5C00 10%, #fff 34%);
+    border-radius: 20px;
+    padding-block: 24px 46px;
+    padding-inline: 40px;
+}
+
+.urgentcall-form  h3 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 79px;
+}
+
+.urgentcall-form input {
+    max-width: 345px;
+    text-align: center;
+    border: 2px solid #CACACA;
+    padding: 17px 46px;
+    font-size: 22px;
+    line-height: 26px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 43px;
+}
+
+.urgentcall-form p {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #808080;
+    margin: 0;
+    margin-top: 27px;
+
+}
+
+.urgentcall-tel-all {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.urgentcall-form-btn {
+    max-width: 250px;
+    margin: auto;
+    font-size: 22px;
+    line-height: 26px;
+    color: #fff;
+    padding: 17px 34px;
+    background: #00BB34;
+    box-shadow: 2px 4px 20px rgba(0, 187, 52, 0.65);
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}

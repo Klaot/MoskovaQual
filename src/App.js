@@ -4,8 +4,6 @@ import { BrowserRouter, Link, Routes , Route } from "react-router-dom";
 import  Home  from './pages/Home';
 import  Header  from './components/Header';
 import './App.css';
-import NavBar from './components/NavBar';
-import '../src/components/NavBar.css';
 import HomeFirstBlock from './components/HomeFirstBlock';
 
 

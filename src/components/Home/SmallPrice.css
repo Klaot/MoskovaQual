@@ -1,0 +1,84 @@
+.price {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid #999999;
+}
+
+.price-item-first {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.price-item-last {
+    border-radius: 0px 0px 20px 20px ;
+}
+
+.price-item1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 26px;
+    background: rgba(228, 249, 255, 0.68);
+    font-size: 20px;
+    line-height: 23px;
+    padding-inline: 56px;
+    border-bottom: 1px solid #999999;
+}
+
+.price-item2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 26px;
+    background: #fff;
+    font-size: 20px;
+    line-height: 23px;
+    padding-inline: 56px;
+    border-bottom: 1px solid #999999;
+}
+
+.price-item2 a {
+    color: #000;
+}
+
+.price-text-h3 {
+    /* width: 347px; */
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #000;
+}
+
+.price-text-p {
+    /* width: 425px; */
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #000;
+    padding-left: 10px;
+}
+
+.price-text-p span {
+    font-size: 30px;
+    line-height: 35px;
+    color: #FF5C00;
+    margin-left: 10px;
+}
+
+.price-btn {
+    padding: 18px 50px;
+    background: #00BB34;
+    box-shadow: 2px 8px 30px #00BB34;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 25px;
+    font-size: 16px;
+    line-height: 19px;
+}

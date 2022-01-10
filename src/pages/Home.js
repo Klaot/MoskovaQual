@@ -6,6 +6,9 @@ import QualityBlock from "../components/QualityBlock";
 import ThirdBlock from "../components/Home/Third-block";
 import Diagnostics from "../components/Home/Diagnostics";
 import './Home.css';
+import SmallPrice from "../components/Home/SmallPrice";
+import Breakdowns from "../components/Home/Breakdowns";
+import Urgentcall from "../components/Urgentcall";
 
 function Home() {
     return (
@@ -25,6 +28,9 @@ function Home() {
         <QualityBlock />
         <ThirdBlock />
         <Diagnostics />
+        <SmallPrice />
+        <Breakdowns />
+        <Urgentcall />
         
         </div>
     );
