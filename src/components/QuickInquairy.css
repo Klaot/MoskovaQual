@@ -1,0 +1,29 @@
+.quick-inquiry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    background: linear-gradient(180deg, #5F24A8 39.06%, rgba(0, 118, 185, 0.9) 92.71%);
+}
+
+.quick-inquiry-heading {
+    background: #FFFFFF;
+    border-radius: 20px;
+    max-width: 410px;
+    text-align: center;
+    padding: 20px 18px;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 70px;
+    margin-bottom: 55px;
+}
+
+
+
+.quick-inquiry-p {
+    font-size: 22px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 67px;
+}

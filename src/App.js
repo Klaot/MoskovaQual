@@ -5,6 +5,7 @@ import  Home  from './pages/Home';
 import  Header  from './components/Header';
 import './App.css';
 import HomeFirstBlock from './components/HomeFirstBlock';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
             </Routes>
           </div>
         </BrowserRouter>
-        
+        <Footer />
     </div>
     
   );

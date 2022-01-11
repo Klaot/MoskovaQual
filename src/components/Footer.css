@@ -1,0 +1,21 @@
+.footer-Info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 40px;
+    background: #000;
+    color: #fff;
+}
+
+.footer-copirate {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background: #000;
+}
+
+.footer-copirate p {
+    margin: 0;
+}
