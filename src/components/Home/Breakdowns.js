@@ -10,7 +10,7 @@ import MinsSvg from '../..//img/repair/25mins.svg';
 export default function Breakdowns() {
     return (
         <div>
-        <div class="repairH3 containerTwo">
+        <div className="repairH3 containerTwo">
             <h3>Выполняем срочный ремонт за <span>25 МИНУТ</span></h3>  
         </div>
          <section className="breakdowns containerBreack">
@@ -57,7 +57,7 @@ export default function Breakdowns() {
                  </div>
           </div>
           
-         <div class="repair-img-25">
+         <div className="repair-img-25">
              <img src= { MinsSvg } alt="25mins.svg"/>
          </div>
      </section>

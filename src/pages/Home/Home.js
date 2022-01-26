@@ -15,8 +15,8 @@ import QuickInquairy from "../../components/QuickInquairy";
 function Home() {
     return (
         <div>
-        <div class="container oneSection">
-            <div class="oneSectionInfo containerTwo">
+        <div className="container oneSection">
+            <div className="oneSectionInfo containerTwo">
                 <h1>Ремонт стиральных машин<br/> 
                     в Москве</h1>
                     <ul>
@@ -24,7 +24,7 @@ function Home() {
                         <li>Фирменная гарантия на все работы</li>
                         <li>Ремонт в день обращения</li>
                     </ul>
-                <button class="headerBtn">Заказать ремонт</button>
+                <button className="headerBtn">Заказать ремонт</button>
             </div>
         </div>
         <QualityBlock />
