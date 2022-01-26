@@ -1,0 +1,25 @@
+.SerAndPrices {
+    background: url('../../img/ServicesAndPrices/layer1.png') no-repeat;
+    background-position: 1% -37% ;
+}
+
+.SerAndPrices-header {
+    max-width: 869px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.SerAndPrices-header h1 {
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.SerAndPrices-price-header {
+    max-width: 869px;
+    padding-bottom: 50px;
+    
+}
+
+.SerAndPrices-price-btn {
+    padding-bottom: 54px;
+}

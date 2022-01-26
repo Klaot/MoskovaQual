@@ -1,11 +1,11 @@
 import React from 'react';
 import reactDom from 'react-dom';
 import { BrowserRouter, Link, Routes , Route } from "react-router-dom";
-import  Home  from './pages/Home';
+import  Home  from './pages/Home/Home';
 import  Header  from './components/Header';
 import './App.css';
-import HomeFirstBlock from './components/HomeFirstBlock';
 import Footer from './components/Footer';
+import ServicesAndPrices from './pages/ServicesAndPrices/ServicesAndPrices';
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
           <div>
             <Routes>
                 <Route exact path="/" element={<Home />}/>
-                <Route exact path="/price" element={<HomeFirstBlock />}/>
+                <Route exact path="/price" element={<ServicesAndPrices />}/>
             </Routes>
           </div>
         </BrowserRouter>

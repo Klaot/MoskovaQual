@@ -1,0 +1,11 @@
+.ModalShowBtn {
+    padding: 18px 50px;
+    background: #00BB34;
+    box-shadow: 2px 8px 30px #00BB34;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+}

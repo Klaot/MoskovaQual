@@ -1,16 +1,16 @@
 import React from "react";
 import reactDom from "react-dom";
 import  render  from "react-dom";
-import QualityBlock from "../components/QualityBlock";
-import ThirdBlock from "../components/Home/Third-block";
-import Diagnostics from "../components/Home/Diagnostics";
+import QualityBlock from "../../components/QualityBlock";
+import ThirdBlock from "../../components/Home/Third-block";
+import Diagnostics from "../../components/Home/Diagnostics";
 import './Home.css';
-import SmallPrice from "../components/Home/SmallPrice";
-import Breakdowns from "../components/Home/Breakdowns";
-import Urgentcall from "../components/Urgentcall";
-import WyUs from "../components/WyUs";
-import Reviews from "../components/Reviews";
-import QuickInquairy from "../components/QuickInquairy";
+import SmallPrice from "../../components/Home/SmallPrice";
+import Breakdowns from "../../components/Home/Breakdowns";
+import Urgentcall from "../../components/Urgentcall";
+import WyUs from "../../components/WyUs";
+import Reviews from "../../components/Reviews";
+import QuickInquairy from "../../components/QuickInquairy";
 
 function Home() {
     return (

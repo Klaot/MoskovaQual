@@ -10,9 +10,9 @@ import TelephoneHeader from '../img/header/telephone.png';
 
 export default function Footer() {
     return (
-        <footer class="container footer">
-            <div class="footer-Info container">
-                <div class="logo">
+        <footer className="container footer">
+            <div className="footer-Info container">
+                <div className="logo">
                     <a href="#">
                         <img src= {Logo} alt="logo.png"/>
                     </a>
@@ -21,7 +21,7 @@ export default function Footer() {
                         <p>Ремонт бытовой техники</p>
                     </div>
                 </div>
-                <div class="social">
+                <div className="social">
                     <a href="#">
                         <img src= { ComponyInstagram } alt="instagram.png"/>
                     </a>
@@ -35,8 +35,8 @@ export default function Footer() {
                         <img src= { ComponyWhatsapp } alt="whatsapp.png"/>
                     </a>
                 </div>
-                <div class="timetable">
-                    <div class="timetableClock">
+                <div className="timetable">
+                    <div className="timetableClock">
                         <img src= { ClockHeader } alt= "clock-2.png"/>
                         <p>Режим работы</p>
                     </div>
@@ -45,15 +45,15 @@ export default function Footer() {
                         <p>Сб, ВС: с 07:00 до 24:00</p>
                     </div>
                 </div>
-                <div class="callInfo">
-                    <div class="telephone">
+                <div className="callInfo">
+                    <div className="telephone">
                         <img src= { TelephoneHeader }  alt="telephone.png"/>
                         <a href="#">+7(495) 755 69 83</a>    
                     </div>
-                    <button class="callBtn">Заказать звонок</button>    
+                    <button className="callBtn">Заказать звонок</button>    
                 </div>
             </div>
-            <div class="footer-copirate">
+            <div className="footer-copirate">
                 <p>© 2021 sitename.ru <br/>
                     Все права защищены</p>
             </div>

@@ -16,7 +16,10 @@ export default function Reviews() {
             <h3>Наши клиенты всегда остаются довольны нашими услугами!<br/>
                 Лучше всего они скажут об этом сами!</h3>
         </div>
+        
         <div className="reviews-all-card">
+
+
             <div className="reviews-card">
                 <div className="reviews-user">
                     <img src={ Feed1Png } alt="feed1.png"/>
@@ -33,6 +36,8 @@ export default function Reviews() {
                 плановых заданий обеспечивает широкому кругу (специалистов) участие 
                 в формировании направлений прогрессивного развития.</p>
             </div>
+
+
 
             <div className="reviews-card active-reviews">
                 <div className="reviews-user">
@@ -51,6 +56,8 @@ export default function Reviews() {
                     в формировании направлений прогрессивного развития.</p>
             </div>
                 
+
+
             <div className="reviews-card">
                 <div className="reviews-user">
                     <img src={ Feed3Png } alt="feed3.png"/>
@@ -69,12 +76,12 @@ export default function Reviews() {
             </div>
         </div>
     </section>
-        <div class="reviews-slide containerTwo">
-            <button class="reviews-slide-btnL">
+        <div className="reviews-slide containerTwo">
+            <button className="reviews-slide-btnL">
                 <img src={ ReviewsArrow } alt="arrow"/>
             </button>
-            <div class="reviews-slide-nav"><p><span>2</span> из 20</p></div>
-            <button class="reviews-slide-btnR">
+            <div className="reviews-slide-nav"><p><span>2</span> из 20</p></div>
+            <button className="reviews-slide-btnR">
                 <img src={ ReviewsArrow } alt="arrow"/>
             </button>    
         </div>
