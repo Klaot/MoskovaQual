@@ -6,6 +6,9 @@ import Reviews from "../../components/Reviews";
 import Urgentcall from "../../components/Urgentcall";
 import WyUs from "../../components/WyUs";
 import ModalShowBtn from "../../components/ServicesAndPrices/ModalShowBtn";
+import Price1 from "../../components/ServicesAndPrices/Price1";
+import Price2 from "../../components/ServicesAndPrices/Price2";
+import Price3 from "../../components/ServicesAndPrices/Price3";
 
 
 export default function ServicesAndPrices() {
@@ -42,6 +45,19 @@ export default function ServicesAndPrices() {
                     </div>
                 </div>
             </div>
+            <div className="container ">
+                <div className="containerTwo">
+                    <div className="SerAndPrices-price-free">
+                        <h3>Выезд мастера и диагностика — БЕСПЛАТНО *</h3>
+                        <p>* В случае отказа от ремонта или его нецелесообразности,
+                            требуется оплатить 400 рублей за выезд специалиста и диагностику.
+                            За ложный вызов взимается оплата в размере 1000 руб.</p>    
+                    </div>
+                </div>
+            </div>
+            <Price1 />
+            <Price2 />
+            <Price3 />
             <Urgentcall />
             <WyUs />
             <Reviews />

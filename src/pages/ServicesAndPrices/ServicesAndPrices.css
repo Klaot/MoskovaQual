@@ -23,3 +23,21 @@
 .SerAndPrices-price-btn {
     padding-bottom: 54px;
 }
+
+.SerAndPrices-price-free h3 {
+    display: inline-block;
+    padding: 22px 70px 22px 40px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 26px;
+    background: linear-gradient(90deg, #4C257D 57.91%, #A2D3F1 92.67%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.SerAndPrices-price-free p {
+    display: inline-block;
+    max-width: 70%;
+    font-size: 15px;
+    line-height: 18px;
+    color: #595959;
+}

@@ -1,0 +1,52 @@
+.price1-table {
+    max-width: 1170px;
+    display: flex;
+    padding-inline: 14px;
+    align-items: center;
+    justify-content: space-between;
+    background: #EEEEEE;
+    border: 1px solid #D7D7D7;
+    box-sizing: border-box;
+}
+
+.price-header-color {
+    background: rgb(228, 249, 255);
+    border: 1px solid #D7D7D7;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.price1-table h3 {
+    width: 20%;
+    text-align: center;
+}
+
+.price1-table p {
+    width: 20%;
+    text-align: center;
+}
+
+.price1-tables {
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+}
+
+.price1-table .price-p {
+    width: 20%;
+    text-align: start;
+}
+
+.price1 {
+    background: url('../..//img/ServicesAndPrices/layer2-1.png') no-repeat;
+}
+
+.price2 {
+    background: url('../..//img/ServicesAndPrices/layer2-2.png') no-repeat;
+    background-position: 100% 30%;
+}
+
+.price3 {
+    background: url('../..//img/ServicesAndPrices/layer2-3.png') no-repeat;
+    
+}
