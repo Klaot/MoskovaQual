@@ -11,6 +11,7 @@ import Urgentcall from "../../components/Urgentcall";
 import WyUs from "../../components/WyUs";
 import Reviews from "../../components/Reviews";
 import QuickInquairy from "../../components/QuickInquairy";
+import Modal from "../../components/Modal";
 
 function Home() {
     return (
@@ -36,6 +37,7 @@ function Home() {
         <WyUs />
         <Reviews />
         <QuickInquairy />
+       
         
         </div>
     );
