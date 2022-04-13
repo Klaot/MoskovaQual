@@ -1,0 +1,91 @@
+.for-lawyers {
+    background: url('../../img/ServicesAndPrices/layer1.png') no-repeat;
+    background-position: 10px 17px;
+}
+
+.for-lawyers-subsequence p {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.for-lawyers h1 {
+    font-size: 28px;
+    line-height: 33px;
+}
+
+
+.for-lawyers-header {
+    max-width: 869px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.for-lawyers-header h1 {
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.for-lawyers-subsequence {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.for-lawyers-subsequence img {
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+}
+
+.for-lawyers-form {
+    display: flex;
+    flex-direction: column;
+    background: url('../../img/ServicesAndPrices/layer1.png') no-repeat;
+    background-position: 100% 3%;
+}
+
+.for-lawyers-form-btn {
+    max-width: 250px;
+    padding: 18px 50px;
+    margin-bottom: 114px;
+    background: #00BB34;
+    box-shadow: 2px 8px 30px #00BB34;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.for-lawyers-form p {
+    font-size: 15px;
+    line-height: 18px;
+    color: #595959;
+    font-style: italic;
+    margin-bottom: 35px;
+}
+
+.for-lawyers-form input {
+    max-width: 770px;
+    background: #F1F1F1;
+    border: 1px solid #7C7C7C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 17px;
+    padding-block: 24px;
+    margin-bottom: 20px;
+}
+
+.for-lawyers-form textarea {
+    max-width: 770px;
+    min-height: 129px;
+    background: #F1F1F1;
+    border: 1px solid #7C7C7C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 17px;
+    padding-block: 24px;
+    margin-bottom: 20px;
+}

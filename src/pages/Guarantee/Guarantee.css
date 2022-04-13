@@ -1,0 +1,26 @@
+.Guarantee {
+    background: url('../../img/ServicesAndPrices/layer1.png') no-repeat;
+    background-position: 10px 17px;
+}
+
+.Guarantee p {
+    padding-bottom: 50px;
+}
+
+.Guarantee h1 {
+    font-size: 28px;
+    line-height: 33px;
+}
+
+
+.Guarantee-header {
+    max-width: 869px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Guarantee-header h1 {
+    font-size: 28px;
+    line-height: 33px;
+}
+
