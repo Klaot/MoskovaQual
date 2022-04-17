@@ -26,7 +26,7 @@ const  Contacts = () => {
                     </div> 
                     <div className='Contacts-info-addres'>
                         <img src={Gps} alt='Gps'/>
-                        <p>ул. Янки Брыля, д. 21<br></br>
+                        <p>ул. Ставропольская, д. 28<br></br>
                         По будням с 07:00 до 24:00<br></br>
                         По выходным с 07:00 до 24:00</p>
                     </div> 

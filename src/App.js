@@ -1,5 +1,5 @@
 import React from 'react';
-import reactDom from 'react-dom';
+
 import { BrowserRouter, Link, Routes , Route } from "react-router-dom";
 import  Home  from './pages/Home/Home';
 import  Header  from './components/Header';
@@ -9,6 +9,8 @@ import ServicesAndPrices from './pages/ServicesAndPrices/ServicesAndPrices';
 import Guarantee from './pages/Guarantee/Guarantee';
 import ForLawyers from './pages/ForLawyers/ForLawyers';
 import Contacts from './pages/Сontacts/Сontacts';
+import HelpfulInformation from './pages/HelpfulInformation/HelpfulInformation';
+import HistoryAndCompatibility from './pages/HelpfulInformation/HistoryAndCompatibility';
 
 
 function App() {
@@ -24,7 +26,10 @@ function App() {
                 <Link to="/forlawyers">Юр.лица</Link>
                 <Link to="/contacts">Контакты</Link>
                 <a href="#">Вопрос-ответ</a>
-                <a href="#">Полезная информация</a>
+                <Link to="/helpfulInformation">Полезная информация
+                
+                </Link>
+                
             </nav>
         </section>
           <div>
@@ -34,7 +39,9 @@ function App() {
                 <Route exact path="/guarantee" element={<Guarantee />}/>
                 <Route exact path="/forlawyers" element={<ForLawyers />}/>
                 <Route exact path="/contacts" element={<Contacts />}/>
-                
+                <Route exact path="/helpfulInformation/*" element={<HelpfulInformation />}></Route>
+                  <Route exact path='/AdditionalInformation' element={<HistoryAndCompatibility />}/>
+                <Route/>
             </Routes>
           </div>
         </BrowserRouter>
