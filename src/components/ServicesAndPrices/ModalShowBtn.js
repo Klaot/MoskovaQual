@@ -41,7 +41,7 @@ class ModalShowBtn extends React.Component {
                 <div className="modal__content">
                     <form action="#">
                         <div className="modal__close" onClick={this.closeModal}>&times;</div>
-                       <div className="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                       <div className="modal__title"><p>Мы свяжемся с вами как можно быстрее!</p></div>
                          <input required placeholder="Ваше имя" name="name" type="text" className="modal__input"/>
                          <input required placeholder="Ваш номер телефона" name="phone" type="phone" className="modal__input"/>
                         <button className="btn">Перезвонить мне</button>

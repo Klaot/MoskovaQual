@@ -80,7 +80,7 @@ export default function Reviews() {
             <button className="reviews-slide-btnL">
                 <img src={ ReviewsArrow } alt="arrow"/>
             </button>
-            <div className="reviews-slide-nav"><p><span>2</span> из 20</p></div>
+            <div className="reviews-slide-nav"><p><span>1</span> из 2</p></div>
             <button className="reviews-slide-btnR">
                 <img src={ ReviewsArrow } alt="arrow"/>
             </button>    

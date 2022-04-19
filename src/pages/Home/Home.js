@@ -12,6 +12,7 @@ import WyUs from "../../components/WyUs";
 import Reviews from "../../components/Reviews";
 import QuickInquairy from "../../components/QuickInquairy";
 import Modal from "../../components/Modal";
+import ModalShowBtn from "../../components/ServicesAndPrices/ModalShowBtn";
 
 function Home() {
     return (
@@ -25,7 +26,13 @@ function Home() {
                         <li>Фирменная гарантия на все работы</li>
                         <li>Ремонт в день обращения</li>
                     </ul>
-                <button className="headerBtn">Заказать ремонт</button>
+
+                    <div className="home-modal-btn">
+                        <ModalShowBtn />
+                    </div>
+                    
+                   
+                {/* <button className="headerBtn">Заказать ремонт</button> */}
             </div>
         </div>
         <QualityBlock />
