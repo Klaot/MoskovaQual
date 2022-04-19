@@ -8,12 +8,15 @@ import ComponyVk from '../img/header/vk-2.png';
 import ComponyWhatsapp from '../img/header/whatsapp.png';
 import ClockHeader from '../img/header/clock-2.png';
 import TelephoneHeader from '../img/header/telephone.png';
+import { useState } from "react";
+import Modal from "./Modal";
+
+ const Header = () => {
 
 
-
- function Header() {
     return (
        <div> 
+           
             <div className="contactInfo container">
                 <div className="logo">
                     <a href="#">
@@ -53,7 +56,7 @@ import TelephoneHeader from '../img/header/telephone.png';
                     <img src={TelephoneHeader} alt={'TelephoneHeader'}/>
                     <a href="#">+7(495) 777 00 00</a>    
                 </div>
-                <button className="callBtn">Заказать звонок</button>    
+                <button className="callBtn" >Заказать звонок</button>    
             </div>
         </div>
     </div>

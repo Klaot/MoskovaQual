@@ -13,23 +13,20 @@ import HelpfulInformation from './pages/HelpfulInformation/HelpfulInformation';
 import HistoryAndCompatibility from './pages/HelpfulInformation/HistoryAndCompatibility';
 
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header />
       <BrowserRouter>
         <section className="container">
             <nav className="navMenu">
-                <Link to="/">Главная</Link>
-                <Link to="/price">Услуги и цены</Link>
-                <Link to="/guarantee">Гарантия</Link>
-                <Link to="/forlawyers">Юр.лица</Link>
-                <Link to="/contacts">Контакты</Link>
-                <a href="#">Вопрос-ответ</a>
-                <Link to="/helpfulInformation">Полезная информация
-                
-                </Link>
-                
+                <Link to="/"><b>Главная</b></Link>
+                <Link to="/price"><b>Услуги и цены</b></Link>
+                <Link to="/guarantee"><b>Гарантия</b></Link>
+                <Link to="/forlawyers"><b>Юр.лица</b></Link>
+                <Link to="/contacts"><b>Контакты</b></Link>
+                <a href="#"><b>Вопрос-ответ</b></a>
+                <Link to="/helpfulInformation"><b>Полезная информация</b></Link>   
             </nav>
         </section>
           <div>

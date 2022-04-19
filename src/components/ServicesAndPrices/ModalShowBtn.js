@@ -18,7 +18,7 @@ const ModalShowBtn = () => {
     let modalClass = "modal";
         if (open) {
             modalClass += " show"
-        }     
+    }     
     
 
     return (

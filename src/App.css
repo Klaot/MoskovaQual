@@ -7,14 +7,14 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 0px 0px 8px 8px;
-    padding: 31px 31px;
+    padding: 33px 32px;
     background: #fff;
     position: relative;
 }
 
 .navMenu a {
     text-decoration: none;
-    color: #000;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .navMenu a:hover {
