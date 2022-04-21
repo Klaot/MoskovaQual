@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BrowserRouter, Link, Routes , Route } from "react-router-dom";
+import { BrowserRouter, Routes , Route, NavLink } from "react-router-dom";
 import  Home  from './pages/Home/Home';
 import  Header  from './components/Header';
 import './App.css';
@@ -11,6 +11,7 @@ import ForLawyers from './pages/ForLawyers/ForLawyers';
 import Contacts from './pages/Сontacts/Сontacts';
 import HelpfulInformation from './pages/HelpfulInformation/HelpfulInformation';
 import HistoryAndCompatibility from './pages/HelpfulInformation/HistoryAndCompatibility';
+import QuestionAndAnswer from './pages/QuestionAndAnswer/QuestionAndAnswer';
 
 
 const App = () => {
@@ -20,13 +21,13 @@ const App = () => {
       <BrowserRouter>
         <section className="container">
             <nav className="navMenu">
-                <Link to="/"><b>Главная</b></Link>
-                <Link to="/price"><b>Услуги и цены</b></Link>
-                <Link to="/guarantee"><b>Гарантия</b></Link>
-                <Link to="/forlawyers"><b>Юр.лица</b></Link>
-                <Link to="/contacts"><b>Контакты</b></Link>
-                <a href="#"><b>Вопрос-ответ</b></a>
-                <Link to="/helpfulInformation"><b>Полезная информация</b></Link>   
+                <NavLink to="/"><b>Главная</b></NavLink>
+                <NavLink to="/price"><b>Услуги и цены</b></NavLink>
+                <NavLink to="/guarantee"><b>Гарантия</b></NavLink>
+                <NavLink to="/forlawyers"><b>Юр.лица</b></NavLink>
+                <NavLink to="/contacts"><b>Контакты</b></NavLink>
+                <NavLink to="/questionandanswer"><b>Вопрос-ответ</b></NavLink>
+                <NavLink to="/helpfulInformation"><b>Полезная информация</b></NavLink>   
             </nav>
         </section>
           <div>
@@ -36,6 +37,7 @@ const App = () => {
                 <Route exact path="/guarantee" element={<Guarantee />}/>
                 <Route exact path="/forlawyers" element={<ForLawyers />}/>
                 <Route exact path="/contacts" element={<Contacts />}/>
+                <Route exact path="/questionandanswer" element={<QuestionAndAnswer />}/>
                 <Route exact path="/helpfulInformation/*" element={<HelpfulInformation />}></Route>
                   <Route exact path='/AdditionalInformation' element={<HistoryAndCompatibility />}/>
                 <Route/>

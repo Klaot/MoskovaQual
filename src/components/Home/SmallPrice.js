@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../..//components/Home/SmallPrice.css';
 import ModalShowBtn from "../ServicesAndPrices/ModalShowBtn";
 
@@ -44,7 +45,7 @@ export default function SmallPrice() {
             
         </div>
         <div className="price-item2 price-item-last">
-            <a href="#">Подробные цены на ремонт стиральных машин</a>
+            <Link to='/price'>Подробные цены на ремонт стиральных машин</Link>
         </div>
     </section>
 

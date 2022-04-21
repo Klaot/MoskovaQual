@@ -36,8 +36,10 @@
 }
 
 .third-block-btn {
+    text-decoration: none;
+    text-align: center;
     max-width: 250px;
-    padding: 21px 56px;
+    padding: 21px 21px;
     background: #00BB34;
     box-shadow: 2px 8px 30px #00BB34;
     border-radius: 10px;

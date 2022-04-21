@@ -1,6 +1,7 @@
 import React from "react";
 import '../Home/Third-block.css';
 import AskpricePng from '../..//img/askprice.png';
+import { Link } from "react-router-dom";
 
 export default function ThirdBlock() {
     return (
@@ -9,11 +10,10 @@ export default function ThirdBlock() {
                 <img src= { AskpricePng } alt="askprice.png"/>
             </div>
             <div className="third-block-info">
-                <h2>Ответьте на вопросы и узнайте точную 
-                    стоимость ремонта вашей машинки</h2>
+                <h2>Узнайте стоимость ремонта вашей машинки, ознакомившись с нашим прайсом</h2>
                 <p>Мы перезвоним Вам и подробно проконсультируем
-                        по всем вопросам по ремонту стиральной машинки</p>
-                <button className="third-block-btn">Узнать стоимость</button>
+                        по всем вопросам по ремонту стиральной машинки.</p>
+                <Link to='/price' className="third-block-btn">Узнать стоимость</Link>
             </div>
         </section>
     );

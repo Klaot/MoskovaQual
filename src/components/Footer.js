@@ -50,7 +50,7 @@ export default function Footer() {
                         <img src= { TelephoneHeader }  alt="telephone.png"/>
                         <a href="#">+7(495) 755 69 83</a>    
                     </div>
-                    <button className="callBtn">Заказать звонок</button>    
+                    {/* <button className="callBtn">Заказать звонок</button>     */}
                 </div>
             </div>
             <div className="footer-copirate">

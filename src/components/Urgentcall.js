@@ -30,7 +30,7 @@ export default function Urgentcall() {
                         <div className="urgentcall-tel-block">
                             <h3>Прямой телефон</h3>
                             <div className="urgentcall-tel">
-                                <h1>+7(495) 755 69 83</h1>
+                                <h1>+7(495) 000 00 00</h1>
                             </div>
                         </div>
                     </div>

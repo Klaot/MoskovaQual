@@ -17,9 +17,7 @@ export default function Reviews() {
                 Лучше всего они скажут об этом сами!</h3>
         </div>
         
-        <div className="reviews-all-card">
-
-
+        <div className="reviews-all-card container-reviews">
             <div className="reviews-card">
                 <div className="reviews-user">
                     <img src={ Feed1Png } alt="feed1.png"/>

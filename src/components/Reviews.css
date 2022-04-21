@@ -4,6 +4,11 @@
     
 }
 
+.container-reviews {
+    max-width: 1470px;
+    margin: auto;
+}
+
 .reviews-header {
     margin-top: 106px;
 }

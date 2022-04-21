@@ -8,7 +8,8 @@ import Guarantee2Png from '../img/guarantee2.png';
 
 export default function QualityBlock() {
     return(
-        <section className="quality containerTwo">
+        <div className="container">
+    <section className="quality containerTwo">
         <div className="qualityItem">
             <div className="guaranteeAll">
                 <div className="guarantee">
@@ -46,5 +47,6 @@ export default function QualityBlock() {
             </div>
         </div>
     </section>
+    </div>
     ); 
 }

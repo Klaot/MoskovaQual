@@ -58,7 +58,7 @@ export default function Breakdowns() {
           </div>
           
          <div className="repair-img-25">
-             <img src= { MinsSvg } alt="25mins.svg"/>
+             <img src= { MinsSvg } alt="25mins.png"/>
          </div>
      </section>
      </div>
