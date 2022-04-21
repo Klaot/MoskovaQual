@@ -1,0 +1,51 @@
+.History-old {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.HistoryAndCompatibility {
+    padding-top: 40px;
+}
+
+.HistoryAndCompatibility h1 {
+    margin-bottom: 60px;
+}
+
+
+.History-old p {
+    font-size: 15px;
+}
+
+.History-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.History-p p {
+    margin: 0;
+    padding-inline: 46px;
+    padding-block: 6px;
+}
+
+.History-new  h3 {
+    margin-bottom: 30px;
+}
+
+.History-new {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.History-new-p {
+    padding-inline: 0px 46px;
+}
+
+.History-new-p p {
+    font-size: 15px;
+    line-height: 123.3%;
+}
