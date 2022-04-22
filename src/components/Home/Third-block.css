@@ -47,4 +47,9 @@
     color: #fff;
     margin-top: 41px;
     cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+.third-block-btn:hover {
+    background: #00bb358c;
 }

@@ -1,23 +1,26 @@
 import React from "react";
+
 import '../components/Reviews.css';
 import Feed1Png from '../img/REVIEWS/feed1.png';
 import Feed2Png from '../img/REVIEWS/feed2.png';
 import Feed3Png from '../img/REVIEWS/feed3.png';
+import Feed4Png from '../img/REVIEWS/feed4.png';
 import ReviewsFacebook from '../img/REVIEWS/faccebook.png';
 import ReviewsVk from '../img/REVIEWS/vkon.png';
-import ReviewsArrow from '../img/REVIEWS/arrow.png';
+// import ReviewsArrow from '../img/REVIEWS/arrow.png';
+import Carousel from "./Carousel";
 
 export default function Reviews() {
     return (
         <div>
         <section className="container reviews">
-        <div className="containerTwo reviews-header">
-            <h1>ОТЗЫВЫ НАШИХ КЛИЕНТОВ</h1>
-            <h3>Наши клиенты всегда остаются довольны нашими услугами!<br/>
-                Лучше всего они скажут об этом сами!</h3>
-        </div>
-        
-        <div className="reviews-all-card container-reviews">
+            <div className="containerTwo reviews-header">
+                <h1>ОТЗЫВЫ НАШИХ КЛИЕНТОВ</h1>
+                <h3>Наши клиенты всегда остаются довольны нашими услугами!<br/>
+                    Лучше всего они скажут об этом сами!</h3>
+            </div>
+            <div className="reviews-all-card container-reviews">
+        <Carousel>
             <div className="reviews-card">
                 <div className="reviews-user">
                     <img src={ Feed1Png } alt="feed1.png"/>
@@ -34,8 +37,6 @@ export default function Reviews() {
                 плановых заданий обеспечивает широкому кругу (специалистов) участие 
                 в формировании направлений прогрессивного развития.</p>
             </div>
-
-
 
             <div className="reviews-card active-reviews">
                 <div className="reviews-user">
@@ -54,8 +55,6 @@ export default function Reviews() {
                     в формировании направлений прогрессивного развития.</p>
             </div>
                 
-
-
             <div className="reviews-card">
                 <div className="reviews-user">
                     <img src={ Feed3Png } alt="feed3.png"/>
@@ -72,17 +71,26 @@ export default function Reviews() {
                     плановых заданий обеспечивает широкому кругу (специалистов) участие 
                     в формировании направлений прогрессивного развития.</p>
             </div>
+            
+            <div className="reviews-card">
+                <div className="reviews-user">
+                    <img src={ Feed4Png } alt="feed3.png"/>
+                    <div className="reviews-user-info">
+                        <h3>ToyGroup</h3>
+                        <p>12 января 2022</p>
+                    </div>
+                    <div className="reviews-user-social">
+                        <img src={ ReviewsVk } alt="vkon.png"/>
+                        <img src={ ReviewsFacebook } alt="faccebook.png"/>
+                    </div>
+                </div>
+                <p>Идейные соображения высшего порядка, а также реализация намеченных 
+                    плановых заданий обеспечивает широкому кругу (специалистов) участие 
+                    в формировании направлений прогрессивного развития.</p>
+            </div>
+            </Carousel>        
         </div>
     </section>
-        <div className="reviews-slide containerTwo">
-            <button className="reviews-slide-btnL">
-                <img src={ ReviewsArrow } alt="arrow"/>
-            </button>
-            <div className="reviews-slide-nav"><p><span>1</span> из 2</p></div>
-            <button className="reviews-slide-btnR">
-                <img src={ ReviewsArrow } alt="arrow"/>
-            </button>    
-        </div>
     </div>
     );
 }

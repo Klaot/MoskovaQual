@@ -48,7 +48,7 @@ export default function Footer() {
                 <div className="callInfo">
                     <div className="telephone">
                         <img src= { TelephoneHeader }  alt="telephone.png"/>
-                        <a href="#">+7(495) 755 69 83</a>    
+                        <a href="#">+7(495) 777 00 00</a>    
                     </div>
                     {/* <button className="callBtn">Заказать звонок</button>     */}
                 </div>

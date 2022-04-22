@@ -33,7 +33,7 @@ const  Contacts = () => {
                     <div className='Contacts-info-addres'>
                         <img src={Hand} alt='Hand' />
                         <p>Наш номер телефона<br></br>
-                        +7(495) 755 69 83</p>
+                        +7(495) 777 00 00</p>
                     </div> 
                     <div className='Contacts-info-addres'>
                         <img  src={EmailContacts} alt='EmailContacts' />
