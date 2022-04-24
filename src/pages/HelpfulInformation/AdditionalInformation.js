@@ -2,8 +2,9 @@ import '../HelpfulInformation/AdditionalInformation.css';
 import AncientScroll from '../../img/HelpfulInformation/AncientScroll.png';
 import InteractivePng from '../../img/HelpfulInformation/interactive.png';
 import QualityPng from '../../img/HelpfulInformation/quality.png';
-import { BrowserRouter, Link, Routes , Route } from "react-router-dom";
+import {  Link, Routes , Route } from "react-router-dom";
 import HistoryAndCompatibility from './HistoryAndCompatibility';
+import ErrorCodes from './ErrorCodes';
 
 
 const AdditionalInformation = () => {
@@ -25,7 +26,7 @@ const AdditionalInformation = () => {
         <div className="Additional-item">
             <div className="Additional-item-all">
                 <div className="Additional">
-                    <img src={ InteractivePng } alt="interactive.png"/>
+                <Link to='/ErrorCodes'><img src={ InteractivePng } alt="interactive.png"/></Link>
                 </div>
                 <p>Коды ошибок
                 стиральных машин</p>
@@ -36,14 +37,15 @@ const AdditionalInformation = () => {
                 <div className="Additional">
                     <img src={ QualityPng } alt="quality.png"/>
                 </div>
-                <p>Работы наших мастеров</p>
+                <p>Работы наших мастеров (временно недоступено)</p>
             </div>
         </div>
         </section>
         <Routes>
             <Route exact path='/AdditionalInformation' element={<HistoryAndCompatibility />}/>
+            <Route exact path='/ErrorCodes' element={<ErrorCodes />}/>
         </Routes>
-        {/* <HistoryAndCompatibility /> */}
+        
         </>
     )
 }

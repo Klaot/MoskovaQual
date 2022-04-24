@@ -9,7 +9,7 @@ const QuestionAndAnswer = () => {
         <div className='container QuestionAndAnswer'>
             <div className='containerTwo'>
                 <div className='QuestionAndAnswer-header'>
-                    <h1>Вопрос-ответ</h1>
+                    <h1>Вопрос-ответ (в разработке)</h1>
                     <h2>Задавайте ваши вопросы по ремонту стиральных машин!</h2>
                     <button className='QuestionAndAnswer-btn'>Задать вопрос</button>
                 </div>

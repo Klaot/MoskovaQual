@@ -1,0 +1,15 @@
+.ErrorCodes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ErrorCodes img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.error-breands {
+    padding-bottom: 50px;
+}
