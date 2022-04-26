@@ -13,8 +13,10 @@ import HelpfulInformation from './pages/HelpfulInformation/HelpfulInformation';
 import HistoryAndCompatibility from './pages/HelpfulInformation/HistoryAndCompatibility';
 import QuestionAndAnswer from './pages/QuestionAndAnswer/QuestionAndAnswer';
 import ErrorCodes from './pages/HelpfulInformation/ErrorCodes';
-import BOSCH from './pages/HelpfulInformation/ErrorBosch/BOSCH';
-import INDESIT from './pages/HelpfulInformation/ErrorBosch/INDESIT';
+import BOSCH from './pages/HelpfulInformation/Errors/BOSCH';
+import INDESIT from './pages/HelpfulInformation/Errors/INDESIT';
+import HEIER from './pages/HelpfulInformation/Errors/HEIER';
+import HAIER from './pages/HelpfulInformation/Errors/HEIER';
 
 
 const App = () => {
@@ -47,6 +49,7 @@ const App = () => {
                   <Route exact path='/ErrorCodes' element={<ErrorCodes />}/>
                   <Route exact path='/ErrorCodes/BOSCH' element={<BOSCH />}/>
                   <Route exact path='/ErrorCodes/INDESIT' element={<INDESIT />}/>
+                  <Route exact path='/ErrorCodes/HAIER' element={<HAIER />}/>
                 <Route/>
             </Routes>
           </div>

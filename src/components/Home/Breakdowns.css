@@ -1,17 +1,19 @@
 .repair {
-    width: 100%;
+    /* width: 100%; */
 }
 
 
 .containerBreack {
     max-width: 1540px;
     margin: auto;
+    overflow: hidden;
 }
 
 .breakdowns {
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 .repairH3 {
@@ -41,7 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 65%;
+    width: 100%;
     padding-block: 10px;
     background: linear-gradient(91.09deg, #5F24A8 39.53%, #05D2FF 107.7%);
     border-radius: 27px;
@@ -57,11 +59,17 @@
 }
 
 .repair-info {
+    width: 550px;
+    position: relative;
+    z-index: 10;
     margin-left: 40px;
     margin-bottom: 20px;
 }
 
 .repair-img-25 img {
+   
     width: 100%;
-    height: auto;
+    position: relative;
+    z-index: 1;
+    /* height: auto; */
 } 

@@ -35,3 +35,26 @@
     font-size: 15px;
     line-height: 18px;
 }
+
+@media (max-width: 1120px) {
+
+    .qualityItem {
+        width: 262px;
+        height: 280px;
+        background: linear-gradient(180deg, #A6DBF5 0%, #451874 97.92%);
+        border-radius: 28px;
+        margin-inline: 40px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 370px) {
+
+    .quality{
+       display: block;
+       margin-inline: 10px;
+    }
+
+
+}

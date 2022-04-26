@@ -8,7 +8,7 @@ const ErrorCodes = () => {
  const errorList = [
      { name: 'BOSCH', id: 1 },
      { name: 'INDESIT', id: 2 },
-     { name: 'HAIER (в разработке)', id: 3 },
+     { name: 'HAIER', id: 3 },
      { name: 'HANSA (в разработке)', id: 4 },
      { name: 'LG (в разработке)', id: 5 },
      { name: 'SAMSUNG (в разработке)', id: 6 },
