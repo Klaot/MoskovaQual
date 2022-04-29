@@ -1,7 +1,8 @@
 .third-block {
     display: flex;
     justify-content: space-around;
-    align-items: center;  
+    align-items: center; 
+    padding-bottom: 40px; 
 }
 
 .third-block-img {

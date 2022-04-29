@@ -4,6 +4,10 @@
     margin-top: 110px;
 }
 
+.diagnostics-text {
+    padding-inline: 10px;
+}
+
 .diagnostics-text h2 {
     margin-top: 115px;
     font-size: 28px;
@@ -20,7 +24,7 @@
 }
 
 .diagnostics-img-all {
-    width: 450px;
+    max-width: 450px;
     display: flex;
 
     flex-wrap: wrap;
@@ -43,14 +47,15 @@
 
 
 .diagnostics-img {
-    width: 364px;
-    height: 364px;
+    width: 280px;
+    height: 280px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3px;
+    padding: 22px;
     border: 12px solid rgba(76, 26, 139, 0.42);
     border-radius: 100%;
+    
 }
 
 .diagnostics-img-prise {
@@ -59,22 +64,22 @@
     justify-content: center;
     flex-direction: column;
     color: #fff;
-    width: 184px;
-    height: 184px;
+    width: 164px;
+    height: 164px;
     background: #5F24A8;
     border-radius: 100%;
-    margin: -155px 0px 0px 240px;
+    margin: -135px 0px 0px 240px;
     position: relative;
 }
 
 .diagnostics-img-prise p {
     margin: 0;
-    font-size: 30px;
+    font-size: 27px;
 }
 
 .diagnostics-img-prise h2 {
     margin: 0;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 64px
 }
 
@@ -88,4 +93,60 @@
     font-size: 22px;
     line-height: 26px;
     box-shadow: inset 0 -2px 0 0 rgb(0, 0, 0);
+}
+
+@media (max-width: 900px) {
+
+    
+    .diagnostics-text-footer {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 806px) {
+
+    .diagnostics-text {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .diagnostics-text-footer {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+    .diagnostics-img-all {
+        max-width: 450px;
+        display: flex;
+    
+        flex-wrap: wrap;
+    
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    
+
+}
+
+@media (max-width: 430px) {
+
+    
+    .diagnostics-img-prise {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #fff;
+        width: 164px;
+        height: 164px;
+        background: #5F24A8;
+        border-radius: 100%;
+        margin: -115px 0px 0px 170px;
+        position: relative;
+    }
 }
