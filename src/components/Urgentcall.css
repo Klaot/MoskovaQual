@@ -42,6 +42,7 @@
 .urgentcall-quality {
     display: flex;
     flex-direction: column;
+    padding-inline: 20px;
 }
 
 .urgentcall-quality-item {
@@ -95,7 +96,7 @@
     background: linear-gradient( #FF5C00 10%, #fff 34%);
     border-radius: 20px;
     padding-block: 24px 46px;
-    padding-inline: 40px;
+    padding-inline: 30px;
 }
 
 .urgentcall-form  h3 {
@@ -130,6 +131,7 @@
 
 .urgentcall-tel-all {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
@@ -147,4 +149,52 @@
     border-radius: 40px;
     border: none;
     cursor: pointer;
+}
+
+@media (max-width: 845px) {
+
+    .urgentcall-quality {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 20px;
+        padding-bottom:  30px;
+    }
+
+    .urgentcall-tel h1 {
+        color: black;
+        font-size: 35px;
+        line-height: 47px;
+        margin: 0; 
+    }
+
+}
+
+@media (max-width: 635px) {
+
+    .urgentcallQuestion {
+        margin: auto;
+        margin-top: 60px;
+    }
+
+}
+
+@media (max-width: 464px) {
+
+    .urgentcallQuestion {
+        margin-inline: 20px;
+        margin-top: 60px;
+    }
+
+}
+
+@media (max-width: 396px) {
+
+    
+    .urgentcall-tel h1 {
+        color: black;
+        font-size: 30px;
+        line-height: 47px;
+        margin: 0; 
+    }
+
 }
