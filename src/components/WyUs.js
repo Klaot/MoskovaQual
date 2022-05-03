@@ -34,7 +34,7 @@ export default function WyUs() {
                 предоставляет клиентам сразу две гарантии:</h3>
             <div>
                 <div className="whyUs-repair-info">
-                    <div className="whyUs-repair-img whyUs-repair-margin-img">
+                    <div className="whyUs-repair-img-one whyUs-repair-margin-img-one">
                     <img src={ QualityPng } alt="quality.png"/>
                     </div>
                     <div className="whyUs-repair-text">
@@ -44,7 +44,7 @@ export default function WyUs() {
             </div>
             <div>
                 <div className="whyUs-repair-info">
-                    <div className="whyUs-repair-img whyUs-repair-margin-img">
+                    <div className="whyUs-repair-img-one whyUs-repair-margin-img-one">
                         <img src={ Guarantee2Png } alt="guarantee2.png"/>
                     </div>
                     <div className="whyUs-repair-text">

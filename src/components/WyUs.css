@@ -59,7 +59,7 @@
     border-bottom: 3px solid #00669C;
 }
 
-.whyUs-repair-img {
+.whyUs-repair-img-one {
     width: 120px;
     height: 120px;
     background: #FFFFFF;
@@ -87,10 +87,102 @@
     margin-left: 20px;
 }
 
-.whyUs-repair-margin-img {
+.whyUs-repair-margin-img-one {
     margin-bottom: -112.5px;
 }
 
 .whyUs-repair-info {
     margin-bottom: 20px;
+}
+
+
+@media (max-width: 1198px) {
+
+    .whyUsAll {
+        margin-top: 43px;
+        padding-inline: 20px;
+    }
+
+    .whyUs-repair-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        padding-block: 10px;
+        padding-inline: 20px;
+        background: linear-gradient(91.09deg, #5F24A8 39.53%, #05D2FF 107.7%);
+        border-radius: 50px;
+        font-size: 22px;
+        line-height: 26px;
+        color: #fff;
+        margin-left: 20px;
+    }
+
+    .whyUs-repair-text h4 {
+        margin-inline: 40px 20px;
+        
+    }
+
+    .whyUs-repair-info {
+        width: 1000px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 595px) {
+
+    .whyUs-repair-text h4 {
+        margin-inline: 40px 0px;
+        margin-block: 15px;
+        font-size: 17px; 
+    }
+
+    .whyUs-repair-info {
+        max-width: 750px;
+        margin-bottom: 20px;
+    }
+
+    .whyUs-repair-img-one {
+        width: 90px;
+        height: 90px;
+        background: #FFFFFF;
+        border: 2px solid #5F24A8;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 30px 5px rgba(82, 82, 82, 0.25);
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .whyUs-repair-margin-img-one {
+        margin-bottom: -83px;
+    }
+}
+
+
+@media (max-width: 474px) {
+
+   
+    .whyUs-repair-text h4 {
+        margin-inline: 10px -50px;
+        margin-block: 15px;
+        font-size: 15px; 
+    }
+
+    .whyUs-repair-info {
+        max-width: 551px;
+        margin-bottom: 20px;
+    }
+
+    .whyUsAllH3 {
+        display: inline-block;
+        margin-top: 40px;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        border-bottom: 3px solid #00669C;
+    }
 }
