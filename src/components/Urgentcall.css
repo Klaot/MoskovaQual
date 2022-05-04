@@ -176,6 +176,15 @@
         margin-top: 60px;
     }
 
+    .quick-inquiry-p {
+        font-size: 22px;
+        line-height: 26px;
+        color: #fff;
+        margin-bottom: 67px;
+        padding-inline: 10px;
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 464px) {
@@ -183,6 +192,29 @@
     .urgentcallQuestion {
         margin-inline: 20px;
         margin-top: 60px;
+    }
+
+    .urgentcall-form  {
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient( #FF5C00 10%, #fff 34%);
+        border-radius: 20px;
+        padding-block: 24px 46px;
+        padding-inline: 15px;
+    }
+
+    .urgentcall-form input {
+        max-width: 320px;
+        text-align: center;
+        border: 2px solid #CACACA;
+        padding: 17px 46px;
+        font-size: 18px;
+        line-height: 26px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin: auto;
+        margin-bottom: 43px;
     }
 
 }

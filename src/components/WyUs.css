@@ -185,4 +185,22 @@
         line-height: 33px;
         border-bottom: 3px solid #00669C;
     }
+
+    .whyUs-repair-img-one {
+        width: 80px;
+        height: 80px;
+        background: #FFFFFF;
+        border: 2px solid #5F24A8;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 30px 5px rgba(82, 82, 82, 0.25);
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .whyUs-repair-margin-img-one {
+        margin-bottom: -78px;
+    }
 }

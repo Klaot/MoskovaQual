@@ -23,7 +23,7 @@ export default function Reviews() {
         <Carousel>
             <div className="reviews-card">
                 <div className="reviews-user">
-                    <img src={ Feed1Png } alt="feed1.png"/>
+                    <img className="reviews-user-avatar" src={ Feed1Png } alt="feed1.png"/>
                     <div className="reviews-user-info">
                         <h3>Елизавета</h3>
                         <p>18 января 2021</p>
@@ -40,7 +40,7 @@ export default function Reviews() {
 
             <div className="reviews-card active-reviews">
                 <div className="reviews-user">
-                    <img src={ Feed2Png } alt="feed2.png"/>
+                    <img className="reviews-user-avatar" src={ Feed2Png } alt="feed2.png"/>
                     <div className="reviews-user-info">
                         <h3>Александр</h3>
                         <p>18 ноября 2020</p>
@@ -57,7 +57,7 @@ export default function Reviews() {
                 
             <div className="reviews-card">
                 <div className="reviews-user">
-                    <img src={ Feed3Png } alt="feed3.png"/>
+                    <img className="reviews-user-avatar" src={ Feed3Png } alt="feed3.png"/>
                     <div className="reviews-user-info">
                         <h3>Мария</h3>
                         <p>21 января 2021</p>
@@ -74,7 +74,7 @@ export default function Reviews() {
             
             <div className="reviews-card">
                 <div className="reviews-user">
-                    <img src={ Feed4Png } alt="feed3.png"/>
+                    <img className="reviews-user-avatar" src={ Feed4Png } alt="feed3.png"/>
                     <div className="reviews-user-info">
                         <h3>ToyGroup</h3>
                         <p>12 января 2022</p>

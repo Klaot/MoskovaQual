@@ -6,6 +6,7 @@
 
 .reviews-header {
     margin-top: 106px;
+    text-align: center;
 }
 
 .reviews-header h1 {
@@ -21,10 +22,10 @@
 }
 
 .reviews-card {
-    width: 310px;
+    width: 295px;
     margin-left: 10px;
     margin-right: 60px;
-    padding: 26px 28px;
+    padding: 20px 22px;
     background: #FFFFFF;
     box-shadow: 0px 3px 10px 5px rgba(0, 0, 0, 0.1);
     border-radius: 42px;
@@ -56,6 +57,13 @@
 
 .reviews-user-social img {
     margin-inline: 2px;
+    width: 33px;
+    height: 33px;
+}
+
+.reviews-user-avatar {
+    width: 80px;
+    height: 80px;
 }
 
 /* REVIEWS Button */
