@@ -10,7 +10,6 @@ import ReviewsArrow from '../img/REVIEWS/arrow.png';
     const [pages, setPage] = useState([]);
     const [offset, setOffset] = useState([]);
 
-
     const hendleLeftArrow = () => {
         pageNumber <= 1 ? pageNumber = 1 : pageNumber -= 1;
         setOffset((currentOffset) => {
