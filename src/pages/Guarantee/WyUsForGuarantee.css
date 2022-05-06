@@ -93,3 +93,20 @@
 .whyUs-repair-info {
     margin-bottom: 20px;
 }
+
+@media (max-width: 520px) {
+
+    .whyUsGarant {
+        background: #FFFFFF;
+        border-radius: 20px;
+        max-width: 396px;
+        padding: 32px 54px;
+        font-size: 22px;
+        line-height: 26px;
+        margin: auto;
+        background-color: transparent;
+        text-align: center;
+        margin-top: 70px;
+    }
+
+}
