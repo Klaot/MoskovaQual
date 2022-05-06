@@ -172,7 +172,6 @@
         margin-bottom: -75px;
     }
 
-
     .repair-img {
         width: 80px;
         height: 80px;
@@ -216,8 +215,6 @@
 }
 
 @media (max-width: 415px) {
-
-
 
     .repair-text {
         display: flex;
