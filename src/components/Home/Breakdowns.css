@@ -1,7 +1,3 @@
-.repair {
-    /* width: 100%; */
-}
-
 
 .containerBreack {
     max-width: 1540px;
@@ -204,6 +200,7 @@
         color: #fff;
         margin-left: 20px;
     }
+
     .breakdowns {
         display: flex;
         flex-direction: row;
@@ -229,10 +226,6 @@
         color: #fff;
         margin-left: 20px;
     }
-    
-}
-
-@media (max-width: 415px) {
 
     .repair-margin-img {
         margin-bottom: -65px;
@@ -250,6 +243,23 @@
         align-items: center;
         justify-content: center;
         position: relative;
+    } 
+}
+
+@media (max-width: 377px) {
+
+    .repair-text {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        width: 100%;
+        padding-block: 0px;
+        background: linear-gradient(91.09deg, #5F24A8 39.53%, #05D2FF 107.7%);
+        border-radius: 27px;
+        font-size: 13px;
+        line-height: 26px;
+        color: #fff;
+        margin-left: 20px;
     }
     
 }
