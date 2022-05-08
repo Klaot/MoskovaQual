@@ -8,6 +8,7 @@
     max-width: 869px;
     padding-top: 40px;
     padding-bottom: 50px;
+    padding-inline: 10px;
 }
 
 .QuestionAndAnswer-header h1 {

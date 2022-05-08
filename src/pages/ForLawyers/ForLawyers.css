@@ -18,6 +18,7 @@
     max-width: 869px;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-inline: 10px;
 }
 
 .for-lawyers-header h1 {
@@ -38,11 +39,17 @@
     margin-right: 13px;
 }
 
+.for-lawyers-form-h2 {
+    padding-inline: 10px;
+    padding-bottom: 15px;
+}
+
 .for-lawyers-form {
     display: flex;
     flex-direction: column;
     background: url('../../img/ServicesAndPrices/layer1.png') no-repeat;
     background-position: 100% 3%;
+    padding-inline: 10px;
 }
 
 .for-lawyers-form-btn {
@@ -50,7 +57,7 @@
     padding: 18px 50px;
     margin-bottom: 114px;
     background: #00BB34;
-    box-shadow: 2px 8px 30px #00BB34;
+    box-shadow: 2px 3px 12px #00BB34;
     border-radius: 10px;
     border: none;
     color: #fff;
@@ -88,4 +95,22 @@
     padding-left: 17px;
     padding-block: 24px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 425px) {
+
+    .for-lawyers-form-btn {
+        max-width: 250px;
+        padding: 18px 50px;
+        margin: auto;
+        margin-bottom: 114px;
+        background: #00BB34;
+        box-shadow: 2px 3px 12px #00BB34;
+        border-radius: 10px;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 19px;
+    }
 }

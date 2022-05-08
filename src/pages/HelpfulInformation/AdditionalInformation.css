@@ -9,6 +9,7 @@
 .Additional-item {
     width: 262px;
     height: 280px;
+    margin-bottom: 20px;
     background: linear-gradient(180deg, #A6DBF5 0%, #451874 97.92%);
     border-radius: 28px;
 }

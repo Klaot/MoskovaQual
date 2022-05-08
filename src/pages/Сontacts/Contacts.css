@@ -6,7 +6,7 @@
 .Contacts-header {
     max-width: 869px;
     padding-top: 50px;
-    
+    padding-inline: 10px;
     padding-bottom: 80px;
 }
 
@@ -30,7 +30,6 @@
 
 .Contacts-info-img {
     width: 50%;
-   
 }
 
 .Contacts-info-addres img {
@@ -45,4 +44,43 @@
     padding: 70px 70px;
     background: url('../../img/ServicesAndPrices/layer1.png') no-repeat;
     background-position: 100% 50%;
+}
+
+
+@media (max-width: 1100px) {
+
+    .Contacts-info {
+        display: flex;
+        flex-direction: row;
+        padding-inline: 15px;
+        flex-wrap: wrap;
+    }
+
+    .Contacts-info-img {
+        width: 100%;
+        
+    }
+
+    .Contacts-addres {
+        display: flex;
+        flex-direction: column;
+        background-color: #F8F8F8;
+        width: 50%;
+        padding: 70px 70px;
+        background: url('../../img/ServicesAndPrices/layer1.png') no-repeat;
+        background-position: 100% 50%;
+    }
+}
+
+@media (max-width: 635px) {
+
+    .Contacts-addres {
+        display: flex;
+        flex-direction: column;
+        background-color: #F8F8F8;
+        width: 100%;
+        padding: 15px 15px;
+        background: url('../../img/ServicesAndPrices/layer1.png') no-repeat;
+        background-position: 100% 50%;
+    }
 }

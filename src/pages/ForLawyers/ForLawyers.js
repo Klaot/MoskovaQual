@@ -46,7 +46,7 @@ export default function ForLawyers() {
                 </div>
             </div>
             <div className="containerTwo">
-                <h2>Вызов мастера</h2>
+                <h2 className='for-lawyers-form-h2'>Вызов мастера</h2>
                 <form className="for-lawyers-form">
                     <input placeholder="Название компании, ИНН:"></input>
                     <input placeholder="Ваш номер телефона:"></input>
