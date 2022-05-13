@@ -200,6 +200,11 @@
         position: relative;
     }
 
+    .whyUs-repair-img-one img {
+        width: 55px;
+        height: 55px;
+    }
+
     .whyUs-repair-margin-img-one {
         margin-bottom: -78px;
     }

@@ -4,7 +4,7 @@ import NewWM from '../../img/HelpfulInformation/new.png';
 
 const HistoryAndCompatibility = () => {
     return (
-        <div className='container'>
+        <div className='container mobile-style'>
             <div className='containerTwo HistoryAndCompatibility'>
                 <h1>Стиральные машины - История и Современность</h1>
                 <div className="History-old"> 

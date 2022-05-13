@@ -14,7 +14,7 @@ import Price3 from "../../components/ServicesAndPrices/Price3";
 export default function ServicesAndPrices() {
     return (
         <div>
-            <div className="container SerAndPrices">
+            <div className="container SerAndPrices mobile-style">
                 <div className="containerTwo">
                     <div className="SerAndPrices-header">
                         <h1>Наши услуги и цены</h1>

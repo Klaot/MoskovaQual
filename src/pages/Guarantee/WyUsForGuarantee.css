@@ -119,8 +119,8 @@
     }
 
     .whyUs-repair-img {
-        width: 90px;
-        height: 90px;
+        width: 80px;
+        height: 80px;
         background: #FFFFFF;
         border: 2px solid #5F24A8;
         box-sizing: border-box;
@@ -132,7 +132,12 @@
         position: relative;
     }
 
+    .whyUs-repair-img img {
+        width: 60px;
+        height: 60px;
+    }
+
     .whyUs-repair-margin-img {
-        margin-bottom: -84px;
+        margin-bottom: -78px;
     }
 }

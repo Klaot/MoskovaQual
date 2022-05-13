@@ -24,3 +24,16 @@ code {
   margin: auto; 
   overflow: hidden;
 }
+
+@media (max-width: 857px) {
+
+  .mobile-style {
+    margin-top: -250px;
+  }
+
+  .mobile-style h1 {
+    text-align: center;
+  }
+
+}
+

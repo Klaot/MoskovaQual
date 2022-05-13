@@ -7,7 +7,7 @@ export default function Guarantee() {
 
     return (
         <div>
-            <div className="container Guarantee">
+            <div className="container Guarantee mobile-style">
                 <div className="containerTwo">
                     <div className="Guarantee-header">
                     <h1>Гарантия</h1>

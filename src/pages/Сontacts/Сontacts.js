@@ -11,7 +11,7 @@ import YandexMap from './YandexMap';
 const  Contacts = () => {
     return (
         <>
-        <div className="container Contacts">
+        <div className="container Contacts mobile-style">
             <div className="containerTwo">
                 <div className='Contacts-header'>
                    <h1>Контакты</h1> 

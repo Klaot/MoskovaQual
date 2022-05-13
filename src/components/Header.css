@@ -79,3 +79,18 @@
     margin-left: 15px;
     cursor: pointer;
 }
+
+@media (max-width: 482px) {
+
+    .social {
+        margin-top: 10px;
+    }
+
+    .timetable {
+        margin-top: 15px;
+    }
+
+    .telephone  {
+        margin-top: 15px;
+    }
+}

@@ -5,7 +5,7 @@ import QuickInquairy from '../../components/QuickInquairy';
 const HelpfulInformation = () => {
 
     return (
-        <div className="container HelpfulInformation">
+        <div className="container HelpfulInformation mobile-style">
             <div className="containerTwo">
                 <div className="HelpfulInformation-header">
                 <h1>Полезная информация</h1>

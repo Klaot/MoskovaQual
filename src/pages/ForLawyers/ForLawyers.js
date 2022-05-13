@@ -6,7 +6,7 @@ export default function ForLawyers() {
 
     return (
         <div>
-            <div className="container for-lawyers">
+            <div className="container for-lawyers mobile-style">
                 <div className="containerTwo">
                     <div className="for-lawyers-header">
                     <h1>Для Юридических лиц</h1>

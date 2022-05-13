@@ -12,8 +12,7 @@ import TelephoneHeader from '../img/header/telephone.png';
 
 
  const Header = (props) => {
-
-
+     
     return (
        <div> 
             <div className="contactInfo container">

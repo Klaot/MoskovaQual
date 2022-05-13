@@ -22,7 +22,7 @@ const ErrorCodes = () => {
  ]
 
     return (
-        <div className='container QuestionAndAnswer'>
+        <div className='container QuestionAndAnswer mobile-style'>
             <div className='containerTwo'>
                 <div className='QuestionAndAnswer-header'>
                     <h1>Коды ошибок стиральных машин</h1>

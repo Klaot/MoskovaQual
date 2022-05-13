@@ -5,12 +5,18 @@
     margin-bottom: 50px;
 }
 
+.History-old img {
+   margin: 0;
+}
+
 .HistoryAndCompatibility {
     padding-top: 40px;
 }
 
 .HistoryAndCompatibility h1 {
+
     margin-bottom: 60px;
+
 }
 
 
@@ -48,4 +54,26 @@
 .History-new-p p {
     font-size: 15px;
     line-height: 123.3%;
+}
+
+
+@media (max-width: 1200px) {
+
+    .HistoryAndCompatibility h1 {
+        margin-bottom: 60px;
+        padding-inline: 15px;
+        text-align: center;
+    }
+
+    .History-old {
+        display: flex;
+        flex-direction: row;
+        
+        margin-bottom: 50px;
+    }
+
+    .History-old img {
+        margin: 0;
+        padding-left: 15px;
+    }
 }

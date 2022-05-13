@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { useState } from 'react';
 import { BrowserRouter, Routes , Route, NavLink } from "react-router-dom";
 import  Home  from './pages/Home/Home';
 import  Header  from './components/Header';
@@ -15,17 +15,32 @@ import QuestionAndAnswer from './pages/QuestionAndAnswer/QuestionAndAnswer';
 import ErrorCodes from './pages/HelpfulInformation/ErrorCodes';
 import BOSCH from './pages/HelpfulInformation/Errors/BOSCH';
 import INDESIT from './pages/HelpfulInformation/Errors/INDESIT';
-import HEIER from './pages/HelpfulInformation/Errors/HEIER';
 import HAIER from './pages/HelpfulInformation/Errors/HEIER';
 
 
 const App = () => {
+
+  const [show, setShow] = useState(true)
+
+  const toggleMenu = () => {
+    setShow(!show);
+  }
+
+  const hiddenMenu = show ? 'navMenu show' : 'navMenu hidden' ;
+  const burgerAnimation = show ?  'burger-btn active-btn' : 'burger-btn';
   return (
     <div className="App">
       <Header />
       <BrowserRouter>
         <section className="container">
-            <nav className="navMenu">
+            <div className='burger-btn-container'>
+                <button className={burgerAnimation} onClick={toggleMenu}>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+            </div>
+            <nav className= {hiddenMenu}>
                 <NavLink to="/"><b>Главная</b></NavLink>
                 <NavLink to="/price"><b>Услуги и цены</b></NavLink>
                 <NavLink to="/guarantee"><b>Гарантия</b></NavLink>
@@ -34,25 +49,24 @@ const App = () => {
                 <NavLink to="/questionandanswer"><b>Вопрос-ответ</b></NavLink>
                 <NavLink to="/helpfulInformation"><b>Полезная информация</b></NavLink>   
             </nav>
+                <Routes>
+                    <Route exact path="/" element={<Home />}/>
+                    <Route exact path="/price" element={<ServicesAndPrices />}/>
+                    <Route exact path="/guarantee" element={<Guarantee />}/>
+                    <Route exact path="/forlawyers" element={<ForLawyers />}/>
+                    <Route exact path="/contacts" element={<Contacts />}/>
+                    <Route exact path="/questionandanswer" element={<QuestionAndAnswer />}/>
+                    <Route exact path="/helpfulInformation/*" element={<HelpfulInformation />}>  
+                    </Route>
+                      <Route exact path='/AdditionalInformation' element={<HistoryAndCompatibility />}/>
+                      <Route exact path='/ErrorCodes' element={<ErrorCodes />}/>
+                      <Route exact path='/ErrorCodes/BOSCH' element={<BOSCH />}/>
+                      <Route exact path='/ErrorCodes/INDESIT' element={<INDESIT />}/>
+                      <Route exact path='/ErrorCodes/HAIER' element={<HAIER />}/>
+                    <Route/>
+                </Routes>
         </section>
-          <div>
-            <Routes>
-                <Route exact path="/" element={<Home />}/>
-                <Route exact path="/price" element={<ServicesAndPrices />}/>
-                <Route exact path="/guarantee" element={<Guarantee />}/>
-                <Route exact path="/forlawyers" element={<ForLawyers />}/>
-                <Route exact path="/contacts" element={<Contacts />}/>
-                <Route exact path="/questionandanswer" element={<QuestionAndAnswer />}/>
-                <Route exact path="/helpfulInformation/*" element={<HelpfulInformation />}>  
-                </Route>
-                  <Route exact path='/AdditionalInformation' element={<HistoryAndCompatibility />}/>
-                  <Route exact path='/ErrorCodes' element={<ErrorCodes />}/>
-                  <Route exact path='/ErrorCodes/BOSCH' element={<BOSCH />}/>
-                  <Route exact path='/ErrorCodes/INDESIT' element={<INDESIT />}/>
-                  <Route exact path='/ErrorCodes/HAIER' element={<HAIER />}/>
-                <Route/>
-            </Routes>
-          </div>
+          
         </BrowserRouter>
         <Footer />
     </div>

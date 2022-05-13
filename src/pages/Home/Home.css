@@ -9,6 +9,7 @@
 .oneSectionInfo {
     padding-block: 100px 300px;
     padding-inline: 20px;
+    margin-top: 100px;
     color: #fff;
 }
 
@@ -50,4 +51,23 @@
     color: #fff;
     margin-top: 41px;
     cursor: pointer;
+}
+
+
+@media (max-width: 857px) {
+
+    .oneSection { 
+        background: url('../../img/montobl.png') center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 100px;
+        margin-top: -290px;
+    }
+
+    .oneSectionInfo {
+        padding-block: 100px 300px;
+        padding-inline: 20px;
+        margin-top: 0.1px;
+        color: #fff;
+    }
 }
