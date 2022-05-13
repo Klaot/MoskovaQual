@@ -37,7 +37,7 @@
 	position: relative;
 	z-index:2;
     margin-left: 35px;
-    margin-top: 10px;
+    margin-block: 8px;
     padding: 15px 15px;
     background-color: #fff;
     border: 1px solid #fff;
@@ -102,9 +102,7 @@
     }
 
     .burger-btn-container {
-        display: flex;
-        align-items: flex-start;
-        
+        display: block;
     }
 
     .show {
