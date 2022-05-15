@@ -108,7 +108,7 @@ export default function Price1() {
                     <p>9 месяцев</p>
                 </div>
                 <div className="price1-table">
-                    <p className='price-p'>Снятие транспортировочных болтов</p>
+                    <p className='price-p price-last-p'>Снятие транспортировочных болтов</p>
                     <h3>От 1100 р.</h3>
                     <p>20-30 мин.</p>
                     <p>-</p>

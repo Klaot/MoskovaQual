@@ -8,7 +8,9 @@ const HistoryAndCompatibility = () => {
             <div className='containerTwo HistoryAndCompatibility'>
                 <h1>Стиральные машины - История и Современность</h1>
                 <div className="History-old"> 
-                    <img src={ Old } alt='old washing machine'/>
+                    <div className="History-old-img">
+                        <img src={ Old } alt='old washing machine'/>
+                    </div>
                     <div className="History-p">
                         <p>Стиральная машина – поистине самое важное мировое изобретение, 
                         которое облегчило жизнь женщин до неузнаваемости. 
@@ -33,7 +35,7 @@ const HistoryAndCompatibility = () => {
                         и в сеть интернет.</p>
                     </div>
                 </div>
-                <div >
+                <div className='history-new-header-h3'>
                     <h3>Современные стиральные машины: функции и различия</h3>
                     <div className='History-new'>
                         <div className='History-new-p'>
@@ -64,11 +66,10 @@ const HistoryAndCompatibility = () => {
                             <p>Если вам потребуется ремонт стиральной машины, обращайтесь в нашу мастерскую.
                             Наши специалисты выполнят все работы качественно и быстро.</p>  
                         </div>
-                        
+                        <div className='History-new-img'>
                             <img src={NewWM} alt='new washing machine' />
+                        </div>
                     </div>
-                    
-
                 </div>
             </div>
         </div>

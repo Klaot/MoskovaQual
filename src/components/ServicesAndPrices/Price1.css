@@ -50,3 +50,35 @@
     background: url('../..//img/ServicesAndPrices/layer2-3.png') no-repeat;
     
 }
+
+
+@media (max-width: 604px) {
+
+    .price-header-color h3:last-of-type {
+        display: none;
+    }
+
+    .price1-table p:last-of-type {
+        display: none;
+    }
+}
+
+
+@media (max-width: 494px) {
+
+    .price1-table {
+        font-size: 14px;
+    }
+
+    .price1-table h3 {
+        font-size: 13px;
+    }
+
+    .price-last-p {
+        font-size: 11px;
+    }
+
+    .price1-table p:last-of-type {
+        display: none;
+    }
+}

@@ -102,7 +102,8 @@
     }
 
     .burger-btn-container {
-        display: block;
+        display: flex;
+        padding-bottom: 7px;
     }
 
     .show {
@@ -112,6 +113,6 @@
     
     .hidden {
         transition: 0.5s all ease-in-out;
-        transform: translate3d(-0,-100vw,0);
+        transform: translate3d(0,-100vw,0);
     }
 }

@@ -17,12 +17,19 @@
 
 .SerAndPrices-price-header {
     max-width: 869px;
+    padding-inline: 15px;
     padding-bottom: 50px;
     
 }
 
 .SerAndPrices-price-btn {
+    padding-inline: 15px;
+    padding-top: 10px;
     padding-bottom: 54px;
+}
+
+.SerAndPrices-price-free {
+    padding-inline: 15px;
 }
 
 .SerAndPrices-price-free h3 {
@@ -41,4 +48,23 @@
     font-size: 15px;
     line-height: 18px;
     color: #595959;
+}
+
+@media (max-width: 643px) {
+
+    .SerAndPrices-price-free p {
+        display: inline-block;
+        max-width: 100%;
+        font-size: 15px;
+        line-height: 18px;
+        color: #595959;
+    }
+
+    .SerAndPrices-price-btn {
+        display: flex;
+        justify-content: center;
+        padding-inline: 15px;
+        padding-top: 10px;
+        padding-bottom: 54px;
+    }
 }
