@@ -26,21 +26,19 @@ const App = () => {
     setShow(!show);
   }
 
-  const hiddenMenu = show ? 'navMenu show' : 'navMenu hidden' ;
-  const burgerAnimation = show ?  'burger-btn active-btn' : 'burger-btn';
   return (
     <div className="App">
       <Header />
       <BrowserRouter>
-        <section className="container">
-            <div className='burger-btn-container'>
-                <button className={burgerAnimation} onClick={toggleMenu}>
+        <section className="container" onClick={() => setShow(false)}>
+            <div className='burger-btn-container' onClick={e=>e.stopPropagation()}>
+                <button className= {show ?  'burger-btn active-btn' : 'burger-btn'} onClick={toggleMenu}>
                   <span></span>
                   <span></span>
                   <span></span>
                 </button>
             </div>
-            <nav className= {hiddenMenu}>
+            <nav className= {show ? 'navMenu show' : 'navMenu hidden'} onClick={e=>e.stopPropagation()} >
                 <NavLink to="/"><b>Главная</b></NavLink>
                 <NavLink to="/price"><b>Услуги и цены</b></NavLink>
                 <NavLink to="/guarantee"><b>Гарантия</b></NavLink>
