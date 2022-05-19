@@ -1,9 +1,9 @@
-My free mockup project
+# My free mockup project
 . 
-#I am using React. 
+## I am using React. 
 This project is dedicated to a washing machine repair company.
 
-#Library used: React Router.
+### Library used: React Router.
 
-# Deploy:
-# https://moskova-qual.vercel.app/
+## Deploy:
+### https://moskova-qual.vercel.app/

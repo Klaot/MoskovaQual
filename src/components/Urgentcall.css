@@ -137,6 +137,7 @@
     align-items: center;
 }
 
+
 .urgentcall-form-btn {
     max-width: 250px;
     margin: auto;
@@ -205,12 +206,16 @@
         padding-inline: 15px;
     }
 
+    .urgentcall-form h3 {
+        font-size: 15px;
+    }
+
     .urgentcall-form input {
         max-width: 320px;
         text-align: center;
         border: 2px solid #CACACA;
         padding: 17px 46px;
-        font-size: 18px;
+        font-size: 17px;
         line-height: 26px;
         box-sizing: border-box;
         border-radius: 10px;

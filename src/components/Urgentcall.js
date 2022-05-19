@@ -38,7 +38,7 @@ export default function Urgentcall() {
                     <form className="urgentcall-form">
                             <h3>КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА И<br/> 
                                 РАССЧЕТ СТОИМОСТИ РЕМОНТА</h3>
-                             <input type="tel" placeholder="ВАШ НОМЕР ТЕЛЕФОНА"/>
+                             <input className='urgentcall-form-input' type="tel" placeholder="ВАШ НОМЕР ТЕЛЕФОНА"/>
                             <button className="urgentcall-form-btn">Перезвоните мне</button>
                             <p>Мастер перезвонит в течение 15 мин</p>
                     </form>                    

@@ -86,7 +86,33 @@
     padding: 0px 25px;
     color: rgba(255, 255, 255, 0.89);
 }
-.show {
+
+#SubmittedForm {
+    display: flex;
+    justify-content: center;
+    color: #381cd6dc;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#SubmittedForm h2 {
+    margin-top: 0;
+    margin-bottom: 7px;
+    animation-duration: 0.5s;
+    animation-name: opacity;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.showMenu {
     display:block;
 }
 
