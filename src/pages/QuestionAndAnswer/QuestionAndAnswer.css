@@ -26,4 +26,46 @@
     line-height: 19px;
     border: none;
     background: #FF5C00;
+    box-shadow: 2px 8px 30px rgba(255, 92, 0, 0.4);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.QuestionAndAnswer-btn:hover {
+    background: #ff5e00d2;
+}
+
+.QuestionsForm {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 15px;
+}
+
+.QuestionsForm input,textarea {
+    max-width: 90%;
+    padding-inline: 10px;
+    margin-bottom: 15px;
+    padding-block: 23px;
+    border-radius: 10px;
+    border: 1px solid #7A7A7A;
+}
+
+.QuestionsForm textarea {
+    padding-block: 5px;
+    min-height: 150px;
+}
+
+.QuestionsForm button {
+    max-width: 250px;
+    margin-block: 20px;
+}
+
+.QuestionsForm p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ADADAD;
+    margin-bottom: 40px;
 }
