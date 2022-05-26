@@ -69,3 +69,37 @@
     color: #ADADAD;
     margin-bottom: 40px;
 }
+
+.QuestionsForm h4 {
+    margin: 0;
+    margin-bottom: 4px;
+    opacity: 0.9;
+    animation: opacityFormEror 1s ease-in-out ;
+}
+
+.QuestionsForm-error {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.QuestionsForm-error-h3 {
+    margin-left: 15px;
+    color: rgb(241, 19, 19);
+    animation: opacityFormEror 1.3s ease-in-out infinite alternate;
+}
+
+@keyframes opacityFormEror {
+    to {
+        opacity: 1;
+    }
+    from {
+        opacity: 0;
+    }
+}
+
+button.QuestionAndAnswer-btn:disabled {
+    background: #ff5e00d2;
+    cursor: not-allowed;
+}
+
