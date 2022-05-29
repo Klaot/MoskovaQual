@@ -170,7 +170,6 @@ export const QuestionsForm = ({addQuestion}) => {
                              <button disabled = {!formVolid} className='QuestionAndAnswer-btn'>Задать вопрос</button>
                              <h3 className='QuestionsForm-error-h3' style={formVolid ? {color: 'green'} : {color: 'red'}}>{!formVolid ? 'Пожалуйста заполните все поля!' : 'Нажмите чтобы оставить вопрос'}</h3>
                          </div>
-                         
                          <p>*Нажимая на кнопку, я даю согласие на обработку своих персональных данных</p>
                 </form>
             </div>

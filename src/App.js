@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes , Route, NavLink } from "react-router-dom";
 import  Home  from './pages/Home/Home';
 import  Header  from './components/Header';
@@ -18,20 +18,52 @@ import INDESIT from './pages/HelpfulInformation/Errors/INDESIT';
 import HAIER from './pages/HelpfulInformation/Errors/HEIER';
 
 
+
 const App = () => {
 
   const [show, setShow] = useState(true)
+  const [showBtnScroll, setShowBtnScroll] = useState(true)
+
 
   const toggleMenu = () => {
     setShow(!show);
   }
 
+
+  const scrollPage = (e) => {
+    if (window.scrollY <= 1000) {
+        setShowBtnScroll(true);
+    } else {
+        setShowBtnScroll(false)
+    }
+  }
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', scrollPage );
+    return () => window.removeEventListener('scroll', scrollPage );
+  }, [])
+  
+
   return (
-    <div className="App">
+    <div onScroll={scrollPage} className="App">
       <Header />
       <BrowserRouter>
+          <button id='scroll-up-btn' className={showBtnScroll ? 'hidden-btn-up' : 'show-btn-up'} onClick={scrollUp}>
+            <span className="pulse-button__text">↑</span>
+            <span className="btn-rings"></span>
+            <span className="btn-rings"></span>
+            <span className="btn-rings"></span>
+          </button>
         <section className="container" onClick={() => setShow(false)}>
-            <div className='burger-btn-container' onClick={e=>e.stopPropagation()}>
+            <div className='burger-btn-container' onClick={e => e.stopPropagation()}>
                 <button className= {show ?  'burger-btn active-btn' : 'burger-btn'} onClick={toggleMenu}>
                   <span></span>
                   <span></span>
