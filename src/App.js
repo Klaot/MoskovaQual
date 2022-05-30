@@ -16,6 +16,7 @@ import ErrorCodes from './pages/HelpfulInformation/ErrorCodes';
 import BOSCH from './pages/HelpfulInformation/Errors/BOSCH';
 import INDESIT from './pages/HelpfulInformation/Errors/INDESIT';
 import HAIER from './pages/HelpfulInformation/Errors/HEIER';
+import ArrowUp from '../src/img/REVIEWS/arrow.png';
 
 
 
@@ -57,7 +58,8 @@ const App = () => {
       <Header />
       <BrowserRouter>
           <button id='scroll-up-btn' className={showBtnScroll ? 'hidden-btn-up' : 'show-btn-up'} onClick={scrollUp}>
-            <span className="pulse-button__text">↑</span>
+            {/* <span className="arrowUp">Вверх</span> */}
+            <img className="arrowUp" src={ArrowUp} width="20" height="20" alt='arrowUp' />
             <span className="btn-rings"></span>
             <span className="btn-rings"></span>
             <span className="btn-rings"></span>
