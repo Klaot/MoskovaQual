@@ -95,6 +95,8 @@ export const QuestionsForm = ({addQuestion}) => {
             case 'textarea':
                 setTextAreaDirty(true)
                 break
+            default:
+                break
         }
     }
 

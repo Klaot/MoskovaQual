@@ -1,13 +1,16 @@
 import React from 'react';
 import { useState } from 'react';
 import './ModalShowBtn.css';
+import { useDispatch, useSelector } from 'react-redux';
+import { setUserForm } from '../../features/user/userSlice';
 
 
 const ModalShowBtn = () => {
 
    const [open, setOpen] = useState(false);
-   const [send, setSend] = useState(false); 
-
+   const dispatch = useDispatch()
+   const stateSubmitted = useSelector((state) => state.user.userForm)
+  
    const showModal = () => {
        setOpen(!open)
     }
@@ -16,27 +19,22 @@ const ModalShowBtn = () => {
         setOpen(!open)
     }
 
-    let modalClass = "modal";
-        if (open) {
-            modalClass += " showMenu"
-    }
-    
-    const sendForm = (e) => {
+   const sendForm = (e) => {
         e.preventDefault();
-        setSend(true);
+        dispatch(setUserForm());
     }
     
-    const submitted = send ? <SubmittedForm /> : <ViewForm />;
+    const submittedForm = stateSubmitted ? <SubmittedForm /> : <ViewForm />;
     
     return (
         <div>
-            <div className={modalClass}>
+            <div className={open ? "modal showMenu" : "modal"}>
               <div className='modal__dialog'>
                 <div className='modal__content'>
                     <form action="#" onSubmit={sendForm}>
                        <div className='modal__close' onClick={closeModal}>&times;</div>
                        <div className='modal__title'><p>Мы свяжемся с вами как можно быстрее!</p></div>
-                       {submitted}
+                       {submittedForm}
                     </form>
                 </div>
             </div>

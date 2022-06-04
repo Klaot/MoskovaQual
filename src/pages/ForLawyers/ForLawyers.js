@@ -1,4 +1,5 @@
 import '../ForLawyers/ForLawyers.css';
+
 import StarPng from '../..//img/guarantee/star.png';
 import WyUsForGuarantee from '../Guarantee/WyUsForGuarantee';
 
@@ -48,12 +49,12 @@ export default function ForLawyers() {
             <div className="containerTwo">
                 <h2 className='for-lawyers-form-h2'>Вызов мастера</h2>
                 <form className="for-lawyers-form">
-                    <input placeholder="Название компании, ИНН:"></input>
-                    <input placeholder="Ваш номер телефона:"></input>
-                    <input placeholder="E-mail, для отправки копии счёта:"></input>
-                    <input placeholder="Фактический адрес:"></input>
-                    <input placeholder="Вид техники:"></input>
-                    <input placeholder="Модель:"></input>
+                    <input name='inn' placeholder="Название компании, ИНН:"></input>
+                    <input name='number' placeholder="Ваш номер телефона:"></input>
+                    <input name='email' placeholder="E-mail, для отправки копии счёта:"></input>
+                    <input name='adress' placeholder="Фактический адрес:"></input>
+                    <input name='class' placeholder="Вид техники:"></input>
+                    <input name='model' placeholder="Модель:"></input>
                     <textarea placeholder="Что случилось?" type ='text'></textarea>
                     <p>Нажав кнопку «Заказать ремонт», я даю согласие на обработку
                     моих персональных данных.</p>
